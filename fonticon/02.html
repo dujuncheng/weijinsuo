@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>使用icon-字体，自定义</title>
+	<style>
+		@font-face {
+		  font-family: 'icomoon';
+		  src:  url('icomoon.eot');
+		  src:  url('icomoon.svg') format('embedded-opentype'),
+	      url('icomoon.ttf') format('truetype'),
+	      url('icomoon.woff') format('woff'),
+	    url('icomoon.svg') format('svg');
+		  font-weight: normal;
+		  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  
+}
+
+.icon-dudu:before {
+  content: "\e900";
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+	</style>
+</head>
+<body>
+	<span class="icon-dudu"></span>
+</body>
+</html>
