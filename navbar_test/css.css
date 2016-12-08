@@ -1,0 +1,118 @@
+.navbar-dudu {
+  background-color: #BEFE7D;
+  border-color: #4CC567;
+}
+
+.navbar-dudu .navbar-brand {
+  color: #343434;
+}
+
+.navbar-dudu .navbar-brand:hover,
+.navbar-dudu .navbar-brand:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.navbar-dudu .navbar-text {
+  color: #999999;
+}
+
+.navbar-dudu .navbar-nav > li > a {
+  color: #999999;
+}
+
+.navbar-dudu .navbar-nav > li > a:hover,
+.navbar-dudu .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.navbar-dudu .navbar-nav > .active > a,
+.navbar-dudu .navbar-nav > .active > a:hover,
+.navbar-dudu .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #50E27C;
+}
+
+.navbar-dudu .navbar-nav > .disabled > a,
+.navbar-dudu .navbar-nav > .disabled > a:hover,
+.navbar-dudu .navbar-nav > .disabled > a:focus {
+  color: #444444;
+  background-color:#50E27C;
+}
+
+.navbar-dudu .navbar-toggle {
+  border-color: #333333;
+}
+
+.navbar-dudu .navbar-toggle:hover,
+.navbar-dudu .navbar-toggle:focus {
+  background-color: #333333;
+}
+
+.navbar-dudu .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-dudu .navbar-collapse,
+.navbar-dudu .navbar-form {
+  border-color: #101010;
+}
+
+.navbar-dudu .navbar-nav > .open > a,
+.navbar-dudu .navbar-nav > .open > a:hover,
+.navbar-dudu .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #080808;
+}
+
+.navbar-dudu .navbar-nav > .dropdown > a:hover .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.navbar-dudu .navbar-nav > .dropdown > a .caret {
+  border-top-color: #999999;
+  border-bottom-color: #999999;
+}
+
+.navbar-dudu .navbar-nav > .open > a .caret,
+.navbar-dudu .navbar-nav > .open > a:hover .caret,
+.navbar-dudu .navbar-nav > .open > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-dudu .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #080808;
+  }
+  .navbar-dudu .navbar-nav .open .dropdown-menu > li > a {
+    color: #999999;
+  }
+  .navbar-dudu .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-dudu .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-dudu .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-dudu .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-dudu .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #080808;
+  }
+  .navbar-dudu .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-dudu .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-dudu .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444444;
+    background-color: transparent;
+  }
+}
+
+.navbar-dudu .navbar-link {
+  color: #999999;
+}
+
+.navbar-dudu .navbar-link:hover {
+  color: #ffffff;
+}

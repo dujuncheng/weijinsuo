@@ -15,8 +15,11 @@
 			text-align: center;
 		}
 
-		header .container div+div{
+		header .top-bar .container div{
 			border-left: 1px solid #8B8B8B;
+		}
+		header .top-bar .container div:first-child{
+			border-left: 1px solid white;
 		}
 
 		header .nav-bar{
@@ -98,15 +101,17 @@
 
 
 
-/*下面自己写了一个navbar-white的class样式*/
+/*ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚ÂÃƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¨ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡Ãƒâ€šÃ‚ÂªÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â·Ãƒâ€šÃ‚Â±ÃƒÆ’Ã‚Â¥ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â¸ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚Â¤Ãƒâ€šÃ‚Â¸Ãƒâ€šÃ‚Âªnavbar-whiteÃƒÆ’Ã‚Â§Ãƒâ€¦Ã‚Â¡ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾classÃƒÆ’Ã‚Â¦Ãƒâ€šÃ‚Â Ãƒâ€šÃ‚Â·ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¼Ãƒâ€šÃ‚Â*/
 		.navbar-white {
 		  background-color: white;
 		  border-bottom: solid 1px #DEDEDE;
-		  height: 75px;
 		}
 		.navbar-white .navbar-brand {
 		  color: #272727;
-		  line-height: 40px;
+		}
+		.navbar-white .navbar-brand i{
+			position: relative;
+			top: 10px;
 		}
 		.navbar-white .navbar-brand:hover,
 		.navbar-white .navbar-brand:focus {
@@ -152,7 +157,7 @@
 		}
 		.navbar-white .navbar-collapse,
 		.navbar-white .navbar-form {
-		  border-color: transparent;
+		  border-color: #e7e7e7;
 		}
 		.navbar-white .navbar-nav > .open > a,
 		.navbar-white .navbar-nav > .open > a:hover,
@@ -213,7 +218,7 @@
 		
 		.icon-logo::before{
 			content: "\e93e";
-			font-size: 50px;
+			font-size: 44px;
 			color:#1B1B1B;
 		}
 
@@ -224,12 +229,350 @@
 		}
 
 		.nav .navbar-nav li{
-			line-height: 75px;
-			height: 75px;
+			line-height: 40px;
+			height: 40px;
 		}
 		.navbar-nav > li > a{
 			line-height: 40px
 
 
 		}
+		.height75{
+			height:75px;
+		}
+		.margin0{
+			margin-bottom:0;
+		}
 
+
+
+
+
+
+
+/*ÃƒÆ’Ã‚Â¨Ãƒâ€šÃ‚Â½Ãƒâ€šÃ‚Â®ÃƒÆ’Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢Ãƒâ€šÃ‚Â­ÃƒÆ’Ã‚Â¥ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒâ€šÃ‚Â¾*/
+
+
+@media(min-width: 768px){
+	.carousel-inner>.item{
+	height: 410px;
+	background-position: center center;
+	background-size:cover;
+}
+	#ad{
+		height: 410px
+	}
+
+}
+.carousel-inner>.item{
+	background-position: center center;
+	background-size:cover;
+}
+
+
+
+
+/*  chanpin zhanshi */
+
+
+
+
+@media(min-width: 768px){
+	#about .pull-right{
+	position: relative;
+	left: -110px;
+}
+}
+@media(min-width: 992px){
+	#about .pull-right{
+	position: relative;
+	left: -70px;
+}
+}
+@media(min-width: 1200px){
+	#about .pull-right{
+	position: relative;
+	left: -130px;
+}
+}
+
+
+
+.icon-uniE907::before {
+    content: "\e907";
+}
+
+.icon-uniE907{
+	font-size: 37px;
+}
+
+
+#about .container .media a{
+	text-decoration: none;
+}
+
+
+#about .container .media:first-child{
+	margin-top: 15px;
+}
+
+#about{
+	margin-top:50px;
+}
+
+
+.ljyy{
+height: 60px;
+width: 100%;
+border-top: 1px solid #CACACA;
+border-bottom: 1px solid #CACACA;
+margin-top: 80px;
+}
+
+
+.icon-uniE906:before {
+    content: "\e906";
+}
+.text-vcenter{
+	line-height: 60px;
+}
+
+.red{
+	color: #F63737;
+}
+
+.border-dash{
+	border-bottom: dashed red 1px;
+	cursor: pointer;
+}
+
+
+.icon-uniE905:before {
+    content: "\e905";
+}
+
+
+.nav-dudu{
+	padding-top: 50px;
+	font-size: 16px;
+}
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus{
+	color: #373737;
+    cursor: default;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs > li> a, 
+.nav-tabs > li > a:hover, 
+.nav-tabs > li > a:focus{
+    cursor: default;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom-color: transparent;
+}
+.nav-dudu {
+  border-bottom: 1px solid #E9E9E9;
+}
+.nav-dudu > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-dudu > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border-radius: 4px 4px 0 0;
+}
+.nav-dudu > li > a:hover {
+	color: #636363;
+	background-color: transparent;
+}
+.nav-dudu > li.active > a,
+.nav-dudu > li.active > a:hover,
+.nav-dudu > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: transparent;
+  border-bottom : 3px solid #EA4949;
+}
+.nav-dudu.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.nav-dudu.nav-justified > li {
+  float: none;
+}
+.nav-dudu.nav-justified > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.nav-dudu.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .nav-dudu.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-dudu.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.nav-dudu.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.nav-dudu.nav-justified > .active > a,
+.nav-dudu.nav-justified > .active > a:hover,
+.nav-dudu.nav-justified > .active > a:focus {
+  border: 0px solid transparent;
+}
+@media (min-width: 768px) {
+  .nav-dudu.nav-justified > li > a {
+    border-bottom: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-dudu.nav-justified > .active > a,
+  .nav-dudu.nav-justified > .active > a:hover,
+  .nav-dudu.nav-justified > .active > a:focus {
+    border-bottom-color: transparent;
+  }
+}
+.nav-pills > li {
+  float: left;
+}
+.nav-pills > li > a {
+  border-radius: 4px;
+}
+.nav-pills > li + li {
+  margin-left: 2px;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color:transparent;
+}
+
+.nav-pills > li> a,
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+  color: #fff;
+  background-color:transparent;
+}
+.nav-stacked > li {
+  float: none;
+}
+.nav-stacked > li + li {
+  margin-top: 2px;
+  margin-left: 0;
+}
+.nav-justified {
+  width: 100%;
+}
+.nav-justified > li {
+  float: none;
+}
+.nav-justified > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.nav-dudu-justified {
+  border-bottom: 0;
+}
+.nav-dudu-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.nav-dudu-justified > .active > a,
+.nav-dudu-justified > .active > a:hover,
+.nav-dudu-justified > .active > a:focus {
+  border: 1px solid transparent;
+}
+@media (min-width: 768px) {
+  .nav-dudu-justified > li > a {
+    border-bottom: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-dudu-justified > .active > a,
+  .nav-dudu-justified > .active > a:hover,
+  .nav-dudu-justified > .active > a:focus {
+    border-bottom-color: transparent;
+  }
+}
+
+#list{
+	background-color: #F9F9F9;
+}
+
+#list > .piao{
+	margin-top: 25px;
+}
+
+#list .piao .panel-default{
+	padding-right: 15px;
+	padding-left: 15px; 
+	border: 0px;
+	background-color: transparent;
+}
+#list > .piao .panel-heading{
+	float:right;
+	width: 120px;
+	background-color: #e92322;
+	border-left: dashed 1px gray;
+	height: 100%;
+	height: 150px;
+	box-shadow: 0px 1px 1px #CBCBCB;
+	border-left: 1px dashed gray;
+	position: relative;
+
+}
+
+#list > .piao .panel-heading::before,
+#list > .piao .panel-heading::after{
+	content: ' ';
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	position: absolute;
+	background-color: #F9F9F9;
+}
+
+#list > .piao .panel-heading::before{
+	left: -8px;
+	top:-8px;
+}
+
+#list > .piao .panel-heading::after{
+	left: -8px;
+	bottom: -8px;
+}
+
+#list > .piao .panel-body{
+	margin-right:120px;
+	height: 150px;
+	background-color: #e92322;
+	
+	color: #F8F8F8;
+}
+
+#list > .piao .panel-body p{
+	margin: 0;
+}
